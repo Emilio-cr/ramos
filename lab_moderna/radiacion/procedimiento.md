@@ -4,17 +4,20 @@
 
 ### Preparación
 - [ ] Medir la **temperatura ambiente** $T_{ref}$ (K).  
-  - Observación: __________  
+  - Observación: _______20 ºCcon termometro de barilla___  
 - [ ] Medir la **resistencia del filamento** a temperatura ambiente $R_{ref}$ (Ω).  
-  - Observación: __________  
+  - Observación: ____0,6 ohm______  
 
 ### Medición
-- [ ] Conectar el montaje según la **figura 1** de la guía.  
-- [ ] Encender la fuente y ajustar el voltaje $V$ según la tabla de trabajo.  
+- [ok] Conectar el montaje según la **figura 1** de la guía.  
+- [ok ] Encender la fuente y ajustar el voltaje $V$ según la tabla de trabajo.  
 - [ ] Para cada valor de $V$:  
-  - [ ] Medir la **corriente $I$** en el filamento.  
-  - [ ] Registrar la **radiación $Rad$** en mV con la termopila.  
-  - [ ] Proteger el sensor con plumavit entre lecturas.  
+  - [ok ] Medir la **corriente $I$** en el filamento.  
+  - [ok ] Registrar la **radiación $Rad$** en mV con la termopila.  
+  - [ ok] Proteger el sensor con plumavit entre lecturas.  
+
+obs en el lab:  realizamos una segunda vez el experimento, tomando delta Timpo mayo, para que la ampolleta este en eq.
+la primera toma de valores postro linealidad pero con errores en un comienzo, lo que sugiere tomar un mayor tiempo entre muestras (app 2 min) (tapando con plumavit mientras no estamos midiendo)
 
 ### Cálculos
 - [ ] Calcular la **resistencia del filamento**:
