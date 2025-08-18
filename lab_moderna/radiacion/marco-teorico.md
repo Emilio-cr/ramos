@@ -10,21 +10,17 @@ Los principios fundamentales son:
 - **Ley de Stefan–Boltzmann**  
   La potencia radiante total por unidad de área de un cuerpo negro es proporcional a la cuarta potencia de su temperatura absoluta:
 
-  $$
-  Rad = \sigma T^4
-  $$
+  $$Rad = \sigma T^4$$
 
-  donde:
+  donde:  
   - $Rad$ : potencia radiada por unidad de área \([W/m^2]\)  
   - $T$ : temperatura absoluta \([K]\)  
-  - $\sigma = 5.6703 \times 10^{-8}\ [W m^{-2} K^{-4}]$ es la constante de Stefan–Boltzmann  
+  - $\sigma = 5.6703 \times 10^{-8}\ [W\,m^{-2}\,K^{-4}]$ es la constante de Stefan–Boltzmann  
 
 - **Ley del cuadrado inverso**  
   La intensidad radiante de una fuente puntual se distribuye sobre superficies esféricas concéntricas, por lo que la energía por unidad de área disminuye con el cuadrado de la distancia $r$:
 
-  $$
-  Rad(r) \propto \frac{1}{r^2}
-  $$
+  $$Rad(r) \propto \frac{1}{r^2}$$
 
 Estas leyes constituyen la base del experimento, aplicadas a un **filamento de tungsteno** (ampolleta incandescente), que se comporta aproximadamente como un cuerpo negro.
 
@@ -38,9 +34,7 @@ Estas leyes constituyen la base del experimento, aplicadas a un **filamento de t
 - Su **temperatura** no se mide directamente, sino a través de su **resistencia eléctrica**, utilizando la relación entre la resistividad del tungsteno y la temperatura.  
 - La resistencia del filamento se calcula como:
 
-  $$
-  R = \frac{V}{I}
-  $$
+  $$R = \frac{V}{I}$$
 
   donde $V$ es la diferencia de potencial aplicada e $I$ la corriente.  
 
@@ -48,9 +42,7 @@ Estas leyes constituyen la base del experimento, aplicadas a un **filamento de t
 
 - Una vez obtenida la temperatura, se aplica la ley de Stefan–Boltzmann:  
 
-  $$
-  Rad \propto T^4
-  $$
+  $$Rad \propto T^4$$
 
 ### Aplicación Experimental
 
@@ -67,9 +59,7 @@ Estas leyes constituyen la base del experimento, aplicadas a un **filamento de t
 - La radiación emitida por el filamento se propaga en el espacio.  
 - Si se considera al filamento como una fuente puntual, la intensidad radiada disminuye con el cuadrado de la distancia $x$ al sensor:
 
-  $$
-  Rad(x) \propto \frac{1}{x^2}
-  $$
+  $$Rad(x) \propto \frac{1}{x^2}$$
 
 - Esta relación se deduce porque la energía total se distribuye sobre una superficie esférica de radio $x$ y área $A = 4 \pi x^2$.  
 
