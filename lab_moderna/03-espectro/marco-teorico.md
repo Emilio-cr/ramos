@@ -9,36 +9,32 @@ En este experimento se utiliza una **red de difracción** junto con un espectros
 ---
 
 ### Red de Difracción
-Una red de difracción consiste en un arreglo de muchas rendijas paralelas igualmente espaciadas sobre una superficie transparente o reflectante. La separación entre rendijas se denomina **constante de red**, \( d \), y está relacionada con la densidad de líneas:
+Una red de difracción consiste en un arreglo de muchas rendijas paralelas igualmente espaciadas sobre una superficie transparente o reflectante. La separación entre rendijas se denomina **constante de red**, $d$, y está relacionada con la densidad de líneas:
 
-\[
-d = \frac{1}{N}
-\]
+$$ d = \frac{1}{N} $$
 
-donde \( N \) es el número de líneas por unidad de longitud (por ejemplo, líneas/mm).
+donde $N$ es el número de líneas por unidad de longitud (por ejemplo, líneas/mm).
 
 Cuando un haz de luz monocromática incide sobre la red, las ondas difractadas interfieren constructivamente en ciertas direcciones, cumpliéndose la condición de difracción:
 
-\[
-n \lambda = d \, \sin\theta
-\]
+$$ n \lambda = d \, \sin \theta $$
 
-- \( n \): orden del espectro (1, 2, 3, …)  
-- \( \lambda \): longitud de onda  
-- \( d \): espaciamiento de la red  
-- \( \theta \): ángulo de difracción
+- $n$: orden del espectro (1, 2, 3, …)  
+- $\lambda$: longitud de onda  
+- $d$: espaciamiento de la red  
+- $\theta$: ángulo de difracción
 
 ---
 
 ### Espectros de Orden Superior
-- **Orden cero (n=0):** la luz se transmite directamente sin dispersión, produciendo un máximo central.  
-- **Primer orden (n=1):** aparecen las primeras líneas espectrales a ambos lados del máximo central.  
-- **Ordenes superiores (n=2, n=3, …):** proporcionan mayor separación angular entre colores, pero con menor intensidad y riesgo de superposición entre líneas.
+- **Orden cero ($n=0$):** la luz se transmite directamente sin dispersión, produciendo un máximo central.  
+- **Primer orden ($n=1$):** aparecen las primeras líneas espectrales a ambos lados del máximo central.  
+- **Órdenes superiores ($n=2, n=3, …$):** proporcionan mayor separación angular entre colores, pero con menor intensidad y riesgo de superposición entre líneas.
 
 ---
 
 ### Espectrómetro Convencional
-En un espectrómetro manual se observa directamente el espectro, midiendo los ángulos a izquierda y derecha respecto al máximo central. El ángulo promedio se utiliza en la ecuación de difracción para calcular \( \lambda \).  
+En un espectrómetro manual se observa directamente el espectro, midiendo los ángulos a izquierda y derecha respecto al máximo central. El ángulo promedio se utiliza en la ecuación de difracción para calcular $\lambda$.  
 
 Este método reproduce el procedimiento histórico utilizado en los primeros estudios espectroscópicos.
 
