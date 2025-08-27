@@ -1,7 +1,11 @@
 # Comparación de Productos de Precipitación (PR) según Clasificación
 
-Este documento presenta una comparación de los principales productos de precipitación organizados en tres categorías:  
-**observacionales/fusión satelital, reanálisis, y modelos de pronóstico**.  
+Este documento presenta una comparación de los principales productos de precipitación organizados en **cuatro categorías**:  
+1. Observacionales/fusión satelital  
+2. Reanálisis  
+3. Modelos de pronóstico  
+4. Plataformas regionales/locales  
+
 Cada grupo se compara con criterios distintos, acordes a su naturaleza.
 
 ---
@@ -36,9 +40,6 @@ Cada grupo se compara con criterios distintos, acordes a su naturaleza.
 
 ## 🌐 3. Modelos de Pronóstico Operacional
 
-Estos modelos **no son datasets climáticos históricos** sino sistemas numéricos de predicción global que generan pronósticos en tiempo real.  
-Su comparación no se da en términos de "data histórica" sino en **resolución, horizonte temporal y uso operativo**.
-
 | Modelo | Institución | Resolución | Horizonte temporal | Frecuencia de corrida | Acceso |
 |--------|-------------|------------|--------------------|------------------------|--------|
 | **GFS** | NOAA/NCEP (EE.UU.) | ~13 km (0–10 días), ~25 km (11–16 días) | 0–16 días | 4 veces al día | [NOAA NOMADS](https://nomads.ncep.noaa.gov/) |
@@ -52,9 +53,32 @@ Su comparación no se da en términos de "data histórica" sino en **resolución
 
 ---
 
+## 🇨🇱 4. Plataformas Regionales / Productos Locales
+
+Estas herramientas están diseñadas para **Chile y Sudamérica**, y no generan datasets globales nuevos, sino que **compilan, homogenizan y distribuyen** datos de precipitación a nivel regional.  
+
+### **Mawün – Explorador de Precipitaciones (CR2, Chile)**
+- **Referencia a PR:** Sí, centrado en precipitación para Chile continental.  
+- **Relación con otras categorías:**  
+  - Integra **datasets satelitales** (ej. CHIRPS, IMERG).  
+  - Integra **reanálisis** (ej. ERA5).  
+  - Incluye **datos observacionales** de estaciones meteorológicas (DMC, CR2).  
+- **Resolución / origen de datos:**  
+  - Depende de cada producto incluido (ej. 5 km en CHIRPS, 31 km en ERA5).  
+  - Mawün actúa como un **gestor y comparador**.  
+- **Acceso:** [CR2 Mawün](https://www.cr2.cl/mawun-explorador-de-precipitaciones/)  
+- **Utilidad:** facilita el **análisis regional**, comparación entre productos y descarga de datos ajustados a Chile continental.  
+
+### Otros ejemplos regionales
+- **DataClima (CR2):** base de datos de series observadas y homogenizadas en Chile.  
+- **SACA&D (South American Climate Assessment & Dataset):** recopilación de datos climáticos diarios en Sudamérica.  
+
+---
+
 ## 📌 Resumen
-- **Satelitales/fusión:** útiles para monitoreo, evaluación de precipitaciones y estudios hidrológicos.  
-- **Reanálisis:** útiles para estudios climáticos integrales y consistentes en espacio-tiempo.  
-- **Modelos de pronóstico:** orientados a predicciones inmediatas, no a clima histórico.  
+- **Satelitales/fusión:** estimaciones directas desde sensores espaciales.  
+- **Reanálisis:** reconstrucción atmosférica global con modelos + observaciones.  
+- **Pronóstico:** predicción numérica en tiempo real, no diseñada para clima histórico.  
+- **Plataformas regionales/locales:** integran y adaptan datasets globales para aplicaciones en Chile y Sudamérica (ej. Mawün).  
 
 ---
