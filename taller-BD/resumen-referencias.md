@@ -126,11 +126,20 @@
 - **Resultados útiles:** Mejor desempeño de MSWEPv2 y CHIRPSv2 en distintas cuencas y escalas temporales; CMORPH y TRMM útiles en ciertas estaciones; necesidad de validación sitio-específica; el *upscaling* puede afectar desempeño.
 
 ---
+## 9. DYffCast: Regional Precipitation Nowcasting Using IMERG Satellite Data
 
-## 9. Evaluation of temperature and precipitation from CORDEX-CORE South America and Eta-RCM regional climate simulations over the complex terrain of Subtropical Chile
-
-- **Qué comparan:** Tres Modelos Climáticos Regionales (RCMs) forzados con ERA-Interim y GCMs históricos.  
-- **Elemento de referencia:** Productos observacionales gridded y reanálisis ERA5.  
-- **Técnicas distintas a observaciones:** Simulaciones climáticas RCM, evaluación por subregiones y elevaciones.  
+- **Qué comparan:** Modelo DYffusion modificado frente a cuatro modelos competidores para nowcasting de precipitación.  
+- **Elemento de referencia:** Datos de precipitación satelital IMERG (Sudamérica).  
+- **Técnicas distintas a observaciones:** Nowcasting con modelos generativos, nueva función de pérdida (MSE + MAE + LPIPS).  
 - **PR indirecta:** No se menciona.  
-- **Resultados útiles:** Los RCMs reproducen patrones principales de T y PR, pero muestran sesgo frío y húmedo en altura; necesidad de mejores redes de observación para calibración.
+- **Resultados útiles:** Pronósticos de hasta 4 horas con mejor desempeño en múltiples umbrales de lluvia; mayor estabilidad y nitidez en horizontes cortos (2h); código disponible en GitHub.
+
+---
+
+## 10. Variability in evapotranspiration in the Andean páramo as influenced by fog and rainfall
+
+- **Qué comparan:** Tasas de evapotranspiración (ET) bajo condiciones de niebla, mixtas (niebla+lluvia) y secas en páramos andinos.  
+- **Elemento de referencia:** Datos meteorológicos locales y balance de energía/hídrico.  
+- **Técnicas distintas a observaciones:** Comparación experimental de condiciones atmosféricas (fog, rain, dry days).  
+- **PR indirecta:** Sí, ET como variable ecohidrológica vinculada a precipitación/fog.  
+- **Resultados útiles:** Reducción anual estimada de ET entre 77–174 mm bajo condiciones de niebla/lluvia; niebla y precipitación reducen demanda evaporativa y pérdidas de agua.
