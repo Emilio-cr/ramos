@@ -1,10 +1,15 @@
 # Comparación de Productos de Precipitación (PR) según Clasificación
 
-Este documento presenta una comparación de los principales productos de precipitación organizados en **cuatro categorías**:  
-1. Observacionales/fusión satelital  
-2. Reanálisis  
-3. Modelos de pronóstico  
-4. Plataformas regionales/locales  
+Este documento presenta una comparación de los principales productos de precipitación organizados en 
+## Índice
+
+- [1) Satelitales / Fusión](#1-satelitales--fusión)
+  - [1.a) PR directa](#1a-pr-directa)
+  - [1.b) Variables asociadas a PR](#1b-variables-asociadas-a-pr)
+- [2) Reanálisis](#2-reanálisis)
+- [3) Modelos de Pronóstico (operacional)](#3-modelos-de-pronóstico-operacional)
+- [4) Plataformas Regionales / Productos Locales](#4-plataformas-regionales--productos-locales)
+  - [Mawün: Explorador de Productos de Precipitaciones para Chile](#mawün-explorador-de-productos-de-precipitaciones-para-chile)
 
 Cada grupo se compara con criterios distintos, acordes a su naturaleza.
 
@@ -20,6 +25,18 @@ Cada grupo se compara con criterios distintos, acordes a su naturaleza.
 | **PERSIANN-CDR** | Satélite IR + ANN (homogéneo para clima) | 1983 – presente | 0.25° (~25 km) | Diario | [CHRS Data](https://chrsdata.eng.uci.edu/) | ❌ (rezago de meses) | ✅ (40+ años) | ✅ |
 | **CMORPH (NOAA)** | Satélite (microondas + IR morfología) | 1998 – presente | 0.07° (~8 km) | 30 min / diario | [NOAA CPC](https://www.cpc.ncep.noaa.gov/products/janowiak/cmorph_description.html) | ✅ (near real time) | ✅ (25+ años) | ✅ |
 | **GSMaP (JAXA)** | Satélite (microondas + IR) | 2000 – presente | 0.1° (~10 km) | 1 h | [JAXA GPM](https://sharaku.eorc.jaxa.jp/GSMaP/) | ✅ (near real time) | ✅ (20+ años) | ✅ |
+
+
+
+### 1.b) Variables asociadas a PR  _(ET, vegetación, etc.)_
+
+> **Rol:** no estiman lluvia directamente, pero permiten **inferir/contrastar** respuestas del ecosistema a la precipitación (balance hídrico, productividad, sequías).
+
+| Producto | Variable principal | Satélite/Fuente | Alcance temporal | Resolución espacial | Resolución temporal | Acceso / GEE |
+|---|---|---|---|---|---|---|
+| **MOD16A2 (MODIS)** | Evapotranspiración (ET) | Terra/Aqua (MODIS) | 2000–presente | 500 m | 8 días | NASA / ✅ GEE |
+| **MOD13Q1 (MODIS)** | NDVI / EVI (vegetación) | Terra (MODIS) | 2000–presente | 250 m | 16 días | NASA / ✅ GEE |
+| **GLEAM** | Evaporación/Transpiración (ET) | Modelo forzado por satélite | 1980–presente | 0.25° | Diario | Portal GLEAM / ❌ GEE (directo) |
 
 ---
 
