@@ -1,3 +1,51 @@
+# Estado del Arte – Publicaciones sobre Precipitación y Productos Relacionados
+
+---
+
+## 📌 Tabla comparativa
+
+| ID | Título resumido | Qué comparan | Elemento de referencia | Técnicas distintas a obs | PR indirecta | Resultados útiles |
+|----|-----------------|--------------|------------------------|--------------------------|--------------|------------------|
+| 1 | CORDEX-CORE Subtropical Chile (RCMs) | 3 RCMs (ERA-Interim, GCMs) | Gridded obs + ERA5 | Simulación climática regional | No | RCMs reproducen patrones, sesgos frío/húmedo en altura |
+| 2 | SPI vs SPEI en Chile | Índices SPI (lluvia) y SPEI (lluvia+ET) | CR2MET gridded | Correlación con modos climáticos (ENSO, PDO, AAO) | Sí (ET) | Tendencias secas centro-norte, húmedas al sur; utilidad diferencial de SPI y SPEI |
+| 3 | Extremos PR y temperatura en Chile | Tendencias Rx1day, Tx, Tn | Estaciones + AgERA5 (ERA5) | Análisis SST, PW, CAPE, ARs, sondeos | Sí (variables atmosféricas) | Patrones regionales de extremos PR; procesos a gran escala involucrados |
+| 4 | Comparative analysis Andes (MIMERG) | MERRA-2, ERA5, CHIRPS, MSWEP, IMERG | Estaciones + ETC | Desarrollo producto combinado (MIMERG) | No | IMERG mejor en ETC; MIMERG supera a productos individuales |
+| 5 | Sat. PR para sequía en Chile | CHIRPS, PERSIANN-CDR, TRMM | 278 estaciones | SPI, cluster analysis, k-means, SVD | Sí (SPI) | Sobreestimación en norte árido; mejor desempeño en centro-sur; CHIRPS usado para SPI-3 |
+| 6 | Sat. PR y extremos en SESA | IMERG, PERSIANN, CCS-CDR, PDIR-NOW | Obs. SESA | Evaluación R95p, R99p, SDII | No | IMERG y CCS-CDR representan mejor extremos; limitaciones en altura y costas |
+| 7 | CAMELS-CL dataset | Diferentes PR y PET integrados en dataset | Estaciones, reanálisis, satélite | Construcción dataset hidrometeorológico | Sí (PET, atributos cuenca) | Discrepancias en zonas áridas; subestimación en cabeceras; PET satelital sobreestima |
+| 8 | SREs en Latinoamérica | TRMM, CHIRPS, CMORPH, PERSIANN-CDR, MSWEP | Estaciones (Brasil, Colombia, Chile) | Métricas continuas/categóricas; impacto upscaling | No | MSWEP y CHIRPS mejor en distintas cuencas; necesidad validación sitio-específica |
+| 9 | DYffCast: Nowcasting con IMERG | Modelos generativos para nowcasting de PR | IMERG satelital | Framework DYffusion, nueva función de pérdida | No | Mejor desempeño en predicción 0–4h; alta estabilidad hasta 2h; código abierto disponible |
+| 10 | ET en páramos andinos | Influencia de niebla y lluvia en ET | Datos meteorológicos y balance hídrico | Comparación de condiciones secas, niebla y mixtas | Sí (ET) | Niebla y lluvia reducen ET anual en 77–174 mm; importancia ecohidrológica de entradas de agua |
+
+---
+
+## 📌 Categorías identificadas
+
+1. **Comparación de productos PR (datasets satelitales y reanálisis)**  
+   - #4, #5, #6, #8  
+
+2. **Modelado climático regional (RCMs/CMIP-CORDEX)**  
+   - #1  
+
+3. **Índices y proxies indirectos de PR**  
+   - #2, #3, #10  
+
+4. **Bases de datos integradas / hidrología**  
+   - #7  
+
+5. **Nowcasting y nuevas técnicas de IA aplicadas a PR**  
+   - #9  
+
+---
+
+## 📌 Dos publicaciones clave a priorizar
+
+- **#4. Comparative analysis Andes (MIMERG):** comparación directa de 5 productos PR + desarrollo de producto combinado → central para tu objetivo.  
+- **#2. SPI vs SPEI en Chile:** incorpora precipitación + evapotranspiración → conecta con tu idea de métodos indirectos/ecohidrológicos para caracterizar precipitación.
+
+---
+
+
 # Resumen de Publicaciones Seleccionadas
 
 ## 1. Evaluation of temperature and precipitation from CORDEX-CORE South America and Eta-RCM regional climate simulations over the complex terrain of Subtropical Chile
