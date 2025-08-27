@@ -57,17 +57,33 @@ Cada grupo se compara con criterios distintos, acordes a su naturaleza.
 
 Estas herramientas están diseñadas para **Chile y Sudamérica**, y no generan datasets globales nuevos, sino que **compilan, homogenizan y distribuyen** datos de precipitación a nivel regional.  
 
-### **Mawün – Explorador de Precipitaciones (CR2, Chile)**
-- **Referencia a PR:** Sí, centrado en precipitación para Chile continental.  
-- **Relación con otras categorías:**  
-  - Integra **datasets satelitales** (ej. CHIRPS, IMERG).  
-  - Integra **reanálisis** (ej. ERA5).  
-  - Incluye **datos observacionales** de estaciones meteorológicas (DMC, CR2).  
-- **Resolución / origen de datos:**  
-  - Depende de cada producto incluido (ej. 5 km en CHIRPS, 31 km en ERA5).  
-  - Mawün actúa como un **gestor y comparador**.  
-- **Acceso:** [CR2 Mawün](https://www.cr2.cl/mawun-explorador-de-precipitaciones/)  
-- **Utilidad:** facilita el **análisis regional**, comparación entre productos y descarga de datos ajustados a Chile continental.  
+### Mawün: Explorador de Productos de Precipitaciones para Chile
+
+- **Nombre:** Mawün: Explorador de Productos de Precipitaciones para Chile  
+- **Descripción:** Mawün, cuyo nombre significa lluvia en mapudungún, es una plataforma online creada por el Observatorio de Recursos Hídricos de la Universidad de la Frontera y apoyada por el Centro de Ciencia del Clima y la Resiliencia (CR)2. Diseñada para simplificar la exploración y análisis de las Estimaciones Espacialmente Distribuidas de Precipitación (EEDP) en Chile continental, esta herramienta es especialmente útil para visualizar y analizar de manera sencilla datos de precipitación, particularmente valiosa en áreas con escasas mediciones tradicionales como la cordillera de los Andes, el Desierto de Atacama y la Patagonia.  
+- **Bajada:** Comparación de productos de precipitación con observaciones (1980/98 - 2022) en Chile continental. Permite una fácil visualización y análisis preliminar de estimaciones de precipitación distribuidas espacialmente.  
+- **URL:** [https://mawun.cr2.cl](https://mawun.cr2.cl)  
+- **Tipo:** Análisis comparativo y herramientas especializadas  
+- **Palabras claves:** Precipitación, Comparación, Productos Satelitales, CR2MET  
+- **Implementada en:** 2020  
+- **Investigador responsable:** *(no especificado)*  
+- **Variables:** Precipitación (Pr)  
+- **Tipo de dato:** Observaciones de superficie, Reanálisis, Datos satelitales  
+- **Resolución:** Diaria, Mensual, Anual  
+- **Periodo histórico:** Histórico, Presente, Actualización reciente  
+- **Fuentes de datos:**  
+  - Datos generados por CR2 (CR2)  
+  - Dirección General de Aguas (DGA)  
+  - Dirección Meteorológica de Chile (DMC)  
+  - Climate Hazards Group InfraRed Precipitation with Station data (CHIRPS)  
+  - ECMWF reanalysis (ERA5)  
+  - NASA productos de precipitación grillados  
+- **Organizaciones responsables:**  
+  - Centro de Ciencia del Clima y la Resiliencia (CR2)  
+  - Universidad de la Frontera (UFRO)  
+- **Dominio geográfico:** Chile, Regiones de Chile, Cordillera de los Andes  
+- **Unidades espaciales:** Datos grillados, Ubicaciones de estaciones  
+
 
 ### Otros ejemplos regionales
 - **DataClima (CR2):** base de datos de series observadas y homogenizadas en Chile.  
