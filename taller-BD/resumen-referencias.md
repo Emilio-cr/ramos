@@ -143,3 +143,15 @@
 - **Técnicas distintas a observaciones:** Comparación experimental de condiciones atmosféricas (fog, rain, dry days).  
 - **PR indirecta:** Sí, ET como variable ecohidrológica vinculada a precipitación/fog.  
 - **Resultados útiles:** Reducción anual estimada de ET entre 77–174 mm bajo condiciones de niebla/lluvia; niebla y precipitación reducen demanda evaporativa y pérdidas de agua.
+
+11. Performance of Satellite-Based Evapotranspiration Models in Temperate Pastures of Southern Chile
+
+Qué comparan: Varios modelos de balance energético superficial (SEB: SEBS, SEBAL, METRIC, SSEBop) evaluados frente a modelos globales (GLEAM 3.2b y PML_V2) para estimar la evapotranspiración (ETₐ) en pastizales templados del sur de Chile (regiones de Los Ríos y Los Lagos).
+
+Elemento de referencia: No se especifica claramente en el resumen, pero se entiende que se comparan entre modelos satelitales y de reanálisis.
+
+Técnicas distintas a observaciones: Enfoques basados en balance energético superficial (SEB), productos satelitales y modelos globales.
+
+PR indirecta: Sí, la ET se utiliza como proxy indirecto relacionado con la disponibilidad de agua y el balance hídrico.
+
+Resultados útiles: Se demuestra que los modelos satelitales tienen un alto potencial para monitorear evapotranspiración y cuantificar la huella hídrica de pastizales, lo cual es útil para prácticas de irrigación sostenible
