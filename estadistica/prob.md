@@ -4,9 +4,9 @@
 - **Espacio muestral ($\Omega$)**: conjunto de todos los resultados posibles.  
 - **Evento ($A$)**: subconjunto de $\Omega$.  
 - **Probabilidad clásica**:  
-$$
+$
 P(A) = \frac{\text{casos favorables}}{\text{casos posibles}}
-$$  
+$  
 *(si todos los casos son igualmente probables).*
 
 ---
