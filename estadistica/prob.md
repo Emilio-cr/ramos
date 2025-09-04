@@ -106,6 +106,7 @@ E[X] = np
 $$
 
 - **Varianza:**  
+
 $$
 Var(X) = np(1-p)
 $$
