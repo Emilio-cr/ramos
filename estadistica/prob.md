@@ -4,9 +4,9 @@
 - **Espacio muestral ($\Omega$)**: conjunto de todos los resultados posibles.  
 - **Evento ($A$)**: subconjunto de $\Omega$.  
 - **Probabilidad clásica**:  
-$
+$$
 P(A) = \frac{\text{casos favorables}}{\text{casos posibles}}
-$  
+$$  
 *(si todos los casos son igualmente probables).*
 
 ---
@@ -113,9 +113,9 @@ $$
 ---
 
 ## 7. Función de distribución acumulada (CDF)
-$
+$$
 F_X(k) = P(X \leq k) = \sum_{i=0}^k P(X=i)
-$
+$$
 
 - Permite calcular “probabilidad de obtener **como mucho $k$ éxitos**”.  
 - Su complemento:  
